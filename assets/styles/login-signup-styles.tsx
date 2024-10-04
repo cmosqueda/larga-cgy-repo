@@ -11,12 +11,13 @@ export const loginSignupStyles = StyleSheet.create({
     // marginVertical: 20,
   },
   scrollViewStyle: {
-    marginVertical: 50,
+    // marginVertical: 50,
     // marginHorizontal: 5,
   },
   subContainer: {
     width: "100%",
     alignItems: "center",
+    marginVertical: 50,
   },
   heading: {
     fontSize: 25,
@@ -35,22 +36,16 @@ export const loginSignupStyles = StyleSheet.create({
     marginVertical: 10,
     marginHorizontal: 20,
   },
-  doubleColDivider: {
+  doubleCol: {
     // flex: 1,
-    width: "100%",
+    // width: "50%",
     flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
-    marginVertical: 5,
+    // alignItems: "center",
+    justifyContent: "space-between",
+    // marginVertical: 5,
   },
-  doubleColInputField: {
+  doubleColDiv: {
     width: "50%",
-    marginHorizontal: 5,
-    // paddingHorizontal: 20,
-    padding: 10,
-    borderRadius: 5,
-    borderWidth: 1,
-    backgroundColor: "#fff",
   },
   singleColInputField: {
     // width: "100%",
