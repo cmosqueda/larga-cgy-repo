@@ -12,12 +12,13 @@ export const homeStyles = StyleSheet.create({
     // marginVertical: 20,
   },
   scrollViewStyle: {
-    marginVertical: 50,
+    // marginVertical: 50,
     // marginHorizontal: 5,
   },
   subContainer: {
     width: "100%",
     alignItems: "center",
+    marginVertical: 50,
   },
   logoHeadingsSubheadings: {
     alignItems: "center",
